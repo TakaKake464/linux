@@ -1,10 +1,10 @@
 function App() {
+	const greeing = "Hello world! jsx!";
   return (
-        <div>
-	<h1>Hello, world!</h1>
-	<p>Welcome to my website.</p>
-	</div>
-
+	  <>
+	  <h1>{greeing}</h1>
+	  <p>This is a paragraph.</p>
+	  </>
   );
 }
 
