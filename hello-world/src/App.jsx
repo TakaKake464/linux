@@ -1,8 +1,19 @@
 function App() {
 	const greeing = "Hello world! jsx!";
 const styleObject = {
-  color: "red",
+  color: "white",
   fontSize: "32px",
+};
+const containerStyle = {
+  display: "flex",
+  flexWrap: "wrap",
+  alignContent: "center",
+  width: "100vw",
+};
+const boxStyle = {
+  width: "33%",
+  height: "180px",
+  textAlign: "center",
 };
   return (
 	  <>
